@@ -11,7 +11,7 @@ import javax.swing.*;
 public class Program {
 
     public static void main(String[] args) {
-        final Graph maze = new Graph(5,5);
+        final Graph maze = new Graph(75, 75);
 
         SwingUtilities.invokeLater(new Runnable() {
             @Override
